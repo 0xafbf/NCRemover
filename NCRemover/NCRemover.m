@@ -70,20 +70,29 @@
 			
 			//so at last I decided to keep the statusItem and change the view
 			
-			NSView *view = [[NSView alloc]initWithFrame:NSMakeRect(0, 0, 10, 20)];
+			NSButton *originalView = (NSButton*)[statusItem view]; //view is button by inspecting
+			
+			NSButton *newbtn = [[NSButton alloc]initWithFrame:NSMakeRect(0, 0, 10, 22)];
+			[newbtn setTransparent:YES];
+			
+			//NSView *view = [[NSView alloc]initWithFrame:];
 //			
 //			[newItem setView:view];
 //			
-//			
-			[statusItem setView:view];
+//
+			newbtn.action = originalView.action;
+			newbtn.target = originalView.target;
+			[statusItem setView:newbtn];
+			
+			NSLog(@"original view: %@", originalView);
 			
 			
 		}
 		
 	}
-
 	
 }
+
 
 /**
  * @return the single static instance of the plugin object
