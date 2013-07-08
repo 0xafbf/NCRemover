@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53551CA3178A779F00C4B567 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53551CA2178A779F00C4B567 /* Cocoa.framework */; };
+		53551CAD178A779F00C4B567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53551CAB178A779F00C4B567 /* InfoPlist.strings */; };
+		53551CB6178A77CB00C4B567 /* NCRemover.m in Sources */ = {isa = PBXBuildFile; fileRef = 53551CB5178A77CB00C4B567 /* NCRemover.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53551C9F178A779F00C4B567 /* NCRemover.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCRemover.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		53551CA2178A779F00C4B567 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53551CA5178A779F00C4B567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53551CA6178A779F00C4B567 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53551CA7178A779F00C4B567 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53551CAA178A779F00C4B567 /* NCRemover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NCRemover-Info.plist"; sourceTree = "<group>"; };
+		53551CAC178A779F00C4B567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53551CAE178A779F00C4B567 /* NCRemover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NCRemover-Prefix.pch"; sourceTree = "<group>"; };
+		53551CB4178A77CB00C4B567 /* NCRemover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRemover.h; sourceTree = "<group>"; };
+		53551CB5178A77CB00C4B567 /* NCRemover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRemover.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53551C9C178A779F00C4B567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53551CA3178A779F00C4B567 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53551C96178A779F00C4B567 = {
+			isa = PBXGroup;
+			children = (
+				53551CA8178A779F00C4B567 /* NCRemover */,
+				53551CA1178A779F00C4B567 /* Frameworks */,
+				53551CA0178A779F00C4B567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53551CA0178A779F00C4B567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53551C9F178A779F00C4B567 /* NCRemover.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53551CA1178A779F00C4B567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53551CA2178A779F00C4B567 /* Cocoa.framework */,
+				53551CA4178A779F00C4B567 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53551CA4178A779F00C4B567 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53551CA5178A779F00C4B567 /* Foundation.framework */,
+				53551CA6178A779F00C4B567 /* CoreData.framework */,
+				53551CA7178A779F00C4B567 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53551CA8178A779F00C4B567 /* NCRemover */ = {
+			isa = PBXGroup;
+			children = (
+				53551CA9178A779F00C4B567 /* Supporting Files */,
+			);
+			path = NCRemover;
+			sourceTree = "<group>";
+		};
+		53551CA9178A779F00C4B567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53551CAA178A779F00C4B567 /* NCRemover-Info.plist */,
+				53551CB4178A77CB00C4B567 /* NCRemover.h */,
+				53551CB5178A77CB00C4B567 /* NCRemover.m */,
+				53551CAB178A779F00C4B567 /* InfoPlist.strings */,
+				53551CAE178A779F00C4B567 /* NCRemover-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53551C9E178A779F00C4B567 /* NCRemover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53551CB1178A779F00C4B567 /* Build configuration list for PBXNativeTarget "NCRemover" */;
+			buildPhases = (
+				53551C9B178A779F00C4B567 /* Sources */,
+				53551C9C178A779F00C4B567 /* Frameworks */,
+				53551C9D178A779F00C4B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCRemover;
+			productName = NCRemover;
+			productReference = 53551C9F178A779F00C4B567 /* NCRemover.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53551C97178A779F00C4B567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = BoteRock;
+			};
+			buildConfigurationList = 53551C9A178A779F00C4B567 /* Build configuration list for PBXProject "NCRemover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53551C96178A779F00C4B567;
+			productRefGroup = 53551CA0178A779F00C4B567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53551C9E178A779F00C4B567 /* NCRemover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53551C9D178A779F00C4B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53551CAD178A779F00C4B567 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53551C9B178A779F00C4B567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53551CB6178A77CB00C4B567 /* NCRemover.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53551CAB178A779F00C4B567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53551CAC178A779F00C4B567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53551CAF178A779F00C4B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53551CB0178A779F00C4B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53551CB2178A779F00C4B567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCRemover/NCRemover-Prefix.pch";
+				INFOPLIST_FILE = "NCRemover/NCRemover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		53551CB3178A779F00C4B567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NCRemover/NCRemover-Prefix.pch";
+				INFOPLIST_FILE = "NCRemover/NCRemover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53551C9A178A779F00C4B567 /* Build configuration list for PBXProject "NCRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53551CAF178A779F00C4B567 /* Debug */,
+				53551CB0178A779F00C4B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53551CB1178A779F00C4B567 /* Build configuration list for PBXNativeTarget "NCRemover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53551CB2178A779F00C4B567 /* Debug */,
+				53551CB3178A779F00C4B567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53551C97178A779F00C4B567 /* Project object */;
+}
